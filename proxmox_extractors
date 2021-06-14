@@ -8,5 +8,6 @@
     "target_field": "pve-firewall",
     "extractor_config": {
     "regex_value": "^pvefw: ([^,]+,.+)"
+    }
 }
       
