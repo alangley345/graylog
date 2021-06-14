@@ -1,11 +1,12 @@
- {
-      "title": "proxmox pve-firewall",
-      "extractor_type": "regex",
-      "converters": [],
-      "order": 4,
-      "cursor_strategy": "copy",
-      "source_field": "message",
-      "target_field": "pve-firewall",
-      "extractor_config": {
-        "regex_value": "^pvefw: ([^,]+,.+)"
+{
+    "title": "proxmox pve-firewall",
+    "extractor_type": "regex",
+    "converters": [],
+    "order": 4,
+    "cursor_strategy": "copy",
+    "source_field": "message",
+    "target_field": "pve-firewall",
+    "extractor_config": {
+    "regex_value": "^pvefw: ([^,]+,.+)"
+}
       
