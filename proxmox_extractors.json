@@ -7,7 +7,7 @@
     "source_field": "message",
     "target_field": "pve-firewall",
     "extractor_config": {
-    "regex_value": "^pvefw: ([^,]+,.+)"
+    "regex_value": "^pvefw:([^,]+,.+)"
     }
 }
       
